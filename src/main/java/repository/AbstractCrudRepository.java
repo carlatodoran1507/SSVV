@@ -3,7 +3,7 @@ package repository;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class AbstractCrudRepository <ID, E extends HasID<ID>> implements CrudRepository<ID, E> {
+public abstract class AbstractCrudRepository <ID, E extends repository.HasID<ID>> implements repository.CrudRepository<ID, E> {
     private Map<ID, E> elemente;
 
 

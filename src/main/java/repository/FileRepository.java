@@ -5,7 +5,7 @@ package repository;
  * @param <ID> - type E must have an attribute of type ID
  * @param <E> - type of entities saved in repository
  */
-public interface FileRepository<ID, E extends HasID<ID>> {
+public interface FileRepository<ID, E extends repository.HasID<ID>> {
 
     /**
      * Incarca datele din fisier

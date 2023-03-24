@@ -3,7 +3,7 @@ package repository;
 import validation.ValidationException;
 import java.io.*;
 
-public abstract class AbstractFileRepository<ID, E extends HasID<ID>> extends AbstractCrudRepository<ID, E> implements FileRepository<ID, E> {
+public abstract class AbstractFileRepository<ID, E extends HasID<ID>> extends AbstractCrudRepository<ID, E> implements repository.FileRepository<ID, E> {
 
     private String filename;
 
